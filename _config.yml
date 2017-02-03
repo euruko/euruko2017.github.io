@@ -1,0 +1,8 @@
+title: EuRuKo 2017 - Budapest
+description: >
+  Euruko is an annual Ruby Conference in Europe.
+  Visit Budapest, Hungary on September 23–24, 2017.
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
