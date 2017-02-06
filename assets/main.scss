@@ -1,14 +1,4 @@
 ---
 ---
-* {
-  box-sizing: border-box;
-}
 
-html, body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
-  background: #fafafa;
-  color: #363333;
-}
+@import "normalize", "base", "header";
