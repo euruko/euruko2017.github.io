@@ -31,3 +31,13 @@ h3 {
   width: 100%;
   min-height: 500px;
 }
+
+a {
+  color: #e8554e;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
