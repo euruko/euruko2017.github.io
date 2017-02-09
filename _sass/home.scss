@@ -1,16 +1,108 @@
+/*
+  Banner
+*/
 .section-home-banner {
-  background: #cccccc;
+  background-color: #cccccc;
   padding-top: 30px;
+  background-image: url('./map.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: -20% 50%;
 }
 
+.section-home-banner .section-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-home-banner__title {
+  padding: 15vh 5vw;
+}
+
+.section-home-banner__title__name {
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+
+.section-home-banner__title__year {
+  font-size: 68px;
+  font-weight: 800;
+  letter-spacing: 15px;
+}
+
+.section-home-banner__info {
+  padding: 8vh 5vw;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.section-home-banner__info__title {
+  max-width: 40vw;
+  font-weight: 600;
+}
+
+.section-home-banner__info__divider {
+  display: inline-block;
+  height: 1px;
+  width: 50px;
+  background: #363333;
+  margin: 10px 0 8px;
+}
+
+.section-home-banner__info__date {
+  font-style: italic;
+}
+
+.section-home-banner__info__signup {
+  margin-top: 40px;
+}
+
+@media(max-width: 860px) {
+  .section-home-banner {
+    background-size: contain;
+  }
+
+  .section-home-banner .section-container {
+    flex-direction: column;
+  }
+
+  .section-home-banner__title {
+    padding: 5vh;
+  }
+
+  .section-home-banner__info__title {
+    max-width: none;
+  }
+}
+
+@media(max-width: 520px) {
+  .section-home-banner {
+    background-size: 150%;
+    background-position: 30% 50%;
+  }
+}
+
+/*
+  Speakers
+*/
 .section-home-speakers {
   background: #ffffff;
 }
 
+/*
+  Location
+*/
 .section-home-location {
   background: #e8e8e8;
 }
 
+/*
+  Sponsors
+*/
 .section-home-sponsors {
   background: #f6f6f6;
 }
