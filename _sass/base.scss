@@ -34,3 +34,23 @@ a:hover,
 a:active {
   text-decoration: underline;
 }
+
+.section__title {
+  color: $primaryColor;
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.section__title::before {
+  content: "";
+  position: absolute;
+  width: 35%;
+  height: 1px;
+  bottom: 0px;
+  background: $primaryColor;
+}
