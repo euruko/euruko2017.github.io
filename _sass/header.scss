@@ -22,7 +22,7 @@ body {
 
 .nav-item a {
   text-decoration: none;
-  color: #e8554e;
+  color: $primaryColor;
   padding: 8px 15px;
   font-size: 20px;
 	font-weight: 300;
@@ -33,13 +33,13 @@ body {
   border-radius: 8px;
   color: #ffffff;
   font-weight: 400;
-	background-color: #e8554e;
-	border: solid 1px #e8554e;
+	background-color: $primaryColor;
+	border: solid 1px $primaryColor;
 }
 
 .nav-item--active,
 .nav-item:hover {
-  border-bottom: 2px solid #e8554e;
+  border-bottom: 2px solid $primaryColor;
 }
 
 .nav-item--highlighted:hover {
