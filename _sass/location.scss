@@ -1,9 +1,25 @@
+/*
+  About
+*/
 .section-location-about {
-  background: tomato;
-  min-height: 200px;
+
 }
 
+.section-location-about .section-container {
+  display: flex;
+}
+
+.section-location-about .section__side__image {
+  background-image: url('budapest-2.jpg');
+}
+
+/*
+  Map
+*/
 .section-location-map {
-  background: cornflowerblue;
-  min-height: 200px;
+  background: #f3f3f3;
+}
+
+.section-location-map .section__side__text p {
+  color: red;
 }

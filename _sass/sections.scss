@@ -1,7 +1,16 @@
+.section-container p {
+  margin-top: 3vh;
+  line-height: 1.5;
+}
+
 .section-container--full {
   width: 80vw;
   margin: 0 auto;
   padding: 5vh 0;
+}
+
+.section-container--divided {
+  display: flex;
 }
 
 .section__title {
@@ -28,8 +37,12 @@
   width: 50vw;
 }
 
-.section__side__text {
+.section__side__text-left {
   padding: 5vh 3vw 5vh 9.5vw;
+}
+
+.section__side__text-right {
+  padding: 5vh 9.5vw 5vh 3vw;
 }
 
 .section__side__image {
@@ -47,7 +60,11 @@
     width: 100%;
   }
 
-  .section__side__text {
+  .section__side__text-left {
+    padding: 5vh 9.5vw;
+  }
+
+  .section__side__text-right {
     padding: 5vh 9.5vw;
   }
 
