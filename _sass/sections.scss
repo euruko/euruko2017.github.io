@@ -51,6 +51,10 @@
   background-position: center;
 }
 
+.section__side__map {
+  position: relative;
+}
+
 @media(max-width: 860px) {
   .section-container {
     flex-direction: column;
