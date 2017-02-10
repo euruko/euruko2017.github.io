@@ -1,10 +1,6 @@
 /*
   About
 */
-.section-location-about {
-
-}
-
 .section-location-about .section-container {
   display: flex;
 }
@@ -22,4 +18,10 @@
 
 .section-location-map .section__side__text p {
   color: red;
+}
+
+@media(max-width: 860px) {
+  .section-location-map .section-container {
+    flex-direction: column-reverse;
+  }
 }
