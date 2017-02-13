@@ -8,30 +8,28 @@
 }
 
 .nav {
-  text-align: center;
-  white-space: nowrap;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-item {
   display: inline-block;
-  padding: 1.6em 0;
+  padding: 28px 15px;
 }
 
 .nav-item a {
   text-decoration: none;
-  color: $primary-color;
-  padding: 8px 15px;
   font-size: 18px;
-	font-weight: 300;
-	letter-spacing: 1.2px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
 }
 
 .nav-item--highlighted a {
-  border-radius: 8px;
   color: #ffffff;
   font-weight: 400;
-	background-color: $primary-color;
-	border: solid 1px $primary-color;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background-color: $primary-color;
 }
 
 .nav-item--active,
