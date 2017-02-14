@@ -3,9 +3,16 @@
 <head>
   {% include head.html %}
 </head>
-<body>
+<body class="disable-css-transitions">
   {% include header.html %}
   {{content}}
   {% include footer.html %}
+  <script>
+    window.addEventListener('load', enableCssTransitions)
+
+    function enableCssTransitions() {
+      document.body.classList.remove('disable-css-transitions')
+    }
+  </script>
 </body>
 </html>

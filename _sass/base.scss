@@ -13,6 +13,10 @@ body {
   padding-top: 50px;
 }
 
+.disable-css-transitions * {
+  transition: none !important;
+}
+
 h1 {
   font-size: 36px;
   margin: 0;
