@@ -146,6 +146,7 @@
   .nav-item--active a,
   .nav-item:hover a {
     color: $primary-color;
+    font-weight: bold;
   }
 
   .nav__toggle-label {
