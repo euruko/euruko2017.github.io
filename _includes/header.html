@@ -6,12 +6,27 @@
     <span></span>
   </label>
   <ul class="nav">
-    <li class="nav-item nav-item--active"><a href="{{ site.baseurl }}/">Home</a></li>
-    <li class="nav-item"><a href="{{ site.baseurl }}/location">Location</a></li>
-    <li class="nav-item"><a href="#speakers">Speakers</a></li>
-    <li class="nav-item"><a href="#sponsors">Sponsors</a></li>
-    <li class="nav-item"><a href="#schedule">Schedule</a></li>
-    <li class="nav-item"><a href="#blog">Blog</a></li>
-    <li class="nav-item nav-item--highlighted"><a href="#tickets">Tickets</a></li>
+    {% for p in site.pages %}
+      {% if p.title %}
+        <li class="nav-item {% if p.url == page.url %}nav-item--active{% endif %}">
+          <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    <li class="nav-item">
+      <a href="#speakers">Speakers</a>
+    </li>
+    <li class="nav-item">
+      <a href="#sponsors">Sponsors</a>
+    </li>
+    <li class="nav-item">
+      <a href="#schedule">Schedule</a>
+    </li>
+    <li class="nav-item">
+      <a href="#blog">Blog</a>
+    </li>
+    <li class="nav-item nav-item--highlighted">
+      <a href="#tickets">Tickets</a>
+    </li>
   </ul>
 </header>
