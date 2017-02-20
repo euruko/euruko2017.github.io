@@ -74,6 +74,7 @@
   border-radius: 5px 0 0 5px;
   font-size: 16px;
   color: $font-color;
+  flex-grow: 2;
 }
 
 .section-home-banner__info__signup button {
@@ -85,6 +86,7 @@
   font-size: 16px;
   color: #ffffff;
   cursor: pointer;
+  flex-grow: 1;
 }
 
 @media(max-width: 860px) {
@@ -103,12 +105,22 @@
   .section-home-banner__info__title {
     max-width: none;
   }
+
+  .section-home-banner__info__signup form {
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
 }
 
 @media(max-width: 520px) {
   .section-home-banner {
     background-size: 150%;
     background-position: 30% 50%;
+  }
+
+  .section-home-banner__info__signup form {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
