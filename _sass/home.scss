@@ -75,6 +75,7 @@
   font-size: 16px;
   color: $font-color;
   flex-grow: 2;
+  max-width: 300px;
 }
 
 .section-home-banner__info__signup button {
@@ -87,6 +88,7 @@
   color: #ffffff;
   cursor: pointer;
   flex-grow: 1;
+  max-width: 150px;
 }
 
 @media(max-width: 860px) {
