@@ -25,3 +25,15 @@
     flex-direction: column-reverse;
   }
 }
+
+/*
+  Image
+*/
+
+.section-location-image {
+  height: 500px;
+  background-image: url('durer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
