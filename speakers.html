@@ -1,0 +1,19 @@
+---
+layout: page
+title: Speakers
+permalink: /speakers/
+---
+<section class="section-speakers">
+  <div class="section-container section-container--full">
+    <h2 class="section__title">Section 1</h2>
+    <div class="speakers-container">
+      {% for i in (1..10) %}
+      <div class="speaker">
+        <img class="speaker__photo" src="{{ site.baseurl }}/assets/budapest.jpg" alt="Speaker Name">
+        <div class="speaker__name">Speaker Name</div>
+        <div class="speaker__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in ultricies leo. Nulla hendrerit facilisis lorem, sed blandit quam volutpat non.</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
