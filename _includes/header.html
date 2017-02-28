@@ -7,9 +7,9 @@
   </label>
   <ul class="nav">
     {% for p in site.pages %}
-      {% if p.title %}
+      {% if p.menuTitle %}
         <li class="nav-item {% if p.url == page.url %}nav-item--active{% endif %}">
-          <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+          <a href="{{ site.baseurl }}{{ p.url }}">{{ p.menuTitle }}</a>
         </li>
       {% endif %}
     {% endfor %}
