@@ -1,0 +1,51 @@
+/*
+  Team
+*/
+.team-member {
+  margin-top: 25px;
+}
+
+.team-member__name {
+  color: $primary-color;
+  margin-bottom: 5px;
+}
+
+.team-member__email {
+  color: $font-color;
+}
+
+/*
+  Legal info
+*/
+
+.legal-info__company-info {
+  display: inline-block;
+  padding: 20px;
+  margin-top: 40px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.legal-info__company-info__title {
+  font-size: 16px;
+  font-weight: bold;
+  color: $primary-color;
+  margin-bottom: 20px;
+}
+
+.legal-info__company-info__item {
+  margin-bottom: 5px;
+}
+
+.legal-info__company-info__item__label {
+  font-weight: bold;
+  color: $primary-color;
+}
+
+/*
+  Want to sponsor
+*/
+
+.section-want-to-sponsor {
+  margin-bottom: 70px;
+}
