@@ -56,10 +56,6 @@
   font-style: italic;
 }
 
-.section-home-banner__info__signup {
-  margin-top: 40px;
-}
-
 @media(max-width: 860px) {
   .section-home-banner {
     background-size: contain;
@@ -83,6 +79,17 @@
     background-size: 150%;
     background-position: 30% 50%;
   }
+}
+
+/*
+  Stay tuned
+*/
+.section-home-stay-tuned p {
+  text-align: center;
+}
+
+.section-home-stay-tuned .subscription-form {
+  margin: 50px auto;
 }
 
 /*

@@ -28,17 +28,3 @@
   flex-grow: 1;
   max-width: 150px;
 }
-
-@media(max-width: 860px) {
-  .subscription-form {
-    padding-left: 10vh;
-    padding-right: 10vh;
-  }
-}
-
-@media(max-width: 520px) {
-  .subscription-form {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
