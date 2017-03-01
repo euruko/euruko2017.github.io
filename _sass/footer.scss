@@ -2,7 +2,6 @@
   background: #191919;
   color: #e6e6e6;
   font-size: 14px;
-  line-height: 1.8;
   letter-spacing: 1.2px;
 }
 
@@ -16,11 +15,15 @@
   margin-right: 80px;
 }
 
+.footer-column__item {
+  margin: 5px 0;
+}
+
 .footer-column:last-child {
   margin-right: 0;
 }
 
-.footer-column-title {
+.footer-column__title {
   position: relative;
   display: inline-block;
   font-size: 18px;
@@ -28,7 +31,7 @@
   font-style: italic;
 }
 
-.footer-column-title::before {
+.footer-column__title::before {
   content: "";
   position: absolute;
   width: 35%;
