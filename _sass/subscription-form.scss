@@ -6,11 +6,12 @@
 }
 
 .subscription-form input {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   padding: 10px;
-  background-color: #ebebeb;
-  border: solid 1px #d7d7d7;
-  border-radius: 5px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px $font-color;
+  text-align: center;
   font-size: 16px;
   color: $font-color;
   width: 100%;
@@ -20,12 +21,17 @@
 .subscription-form button {
   margin: 0;
   padding: 10px;
-  background-color: $primary-color;
-  border: solid 1px $primary-color;
+  background-color: transparent;
+  border: solid 2px $primary-color;
   border-radius: 5px;
   font-size: 16px;
-  color: #ffffff;
+  color: $primary-color;
   cursor: pointer;
   width: 100%;
   max-width: 150px;
+}
+
+.subscription-form button:active {
+  background-color: $primary-color;
+  color: #ffffff;
 }
