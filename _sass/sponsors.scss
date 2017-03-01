@@ -6,7 +6,7 @@
   Call
 */
 .sponsors-call {
-  margin-bottom: 80px;
+  margin: 80px auto;
   text-align: center;
   font-size: 14px;
   font-weight: 300;
@@ -22,34 +22,7 @@
   Packages
 */
 .sponsors-packages {
-  width: 100%;
   margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: 300;
-	line-height: 1.5;
-	letter-spacing: 0.7px;
-  background: #fafafa;
-}
-
-.sponsors-packages thead tr {
-  background-color: transparent;
-  background-image: url('./pattern-20percent.png');
-  background-repeat: repeat;
-  font-weight: bold;
-}
-
-.sponsors-packages th,
-.sponsors-packages td {
-  border: 2px solid #ffffff;
-  padding: 20px 10px;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.sponsors-packages th:first-child,
-.sponsors-packages td:first-child {
-  text-align: left;
-  padding-left: 20px;
 }
 
 .sponsors-packages__package {
@@ -82,11 +55,7 @@
 }
 
 @media(max-width: 860px) {
-  .sponsors-packages {
+  .sponsors-packages-observations {
     display: none;
-  }
-
-  .sponsors-call {
-    margin-bottom: 40px;
   }
 }

@@ -40,6 +40,9 @@ a:active {
   text-decoration: underline;
 }
 
+/*
+  Placeholder
+*/
 ::-webkit-input-placeholder { /* Chrome */
   color: $font-color;
   opacity: .7;
@@ -55,4 +58,43 @@ a:active {
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: $font-color;
   opacity: .7;
+}
+
+/*
+  Table
+*/
+table {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 300;
+	line-height: 1.5;
+	letter-spacing: 0.7px;
+  background: #fafafa;
+}
+
+table thead tr {
+  background-color: transparent;
+  background-image: url('./pattern-20percent.png');
+  background-repeat: repeat;
+  font-weight: bold;
+}
+
+table th,
+table td {
+  border: 2px solid #ffffff;
+  padding: 20px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table th:first-child,
+table td:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+@media(max-width: 860px) {
+  table {
+    display: none;
+  }
 }
