@@ -35,10 +35,6 @@
   border-bottom: 2px solid $primary-color;
 }
 
-.nav-item--highlighted:hover {
-  border-bottom: none;
-}
-
 .nav__toggle {
   position: absolute;
   opacity: 0;
@@ -145,6 +141,12 @@
   .nav-item:hover a {
     color: $primary-color;
     font-weight: bold;
+  }
+
+  .nav-item--highlighted.nav-item--active a,
+  .nav-item--highlighted.nav-item:hover a {
+    color: #ffffff;
+    font-weight: inherit;
   }
 
   .nav__toggle-label {
