@@ -39,3 +39,20 @@ a:hover,
 a:active {
   text-decoration: underline;
 }
+
+::-webkit-input-placeholder { /* Chrome */
+  color: $font-color;
+  opacity: .7;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $font-color;
+  opacity: .7;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $font-color;
+  opacity: .7;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: $font-color;
+  opacity: .7;
+}
