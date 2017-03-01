@@ -1,7 +1,28 @@
+.section-speakers {
+  background: #ffffff;
+}
+
 .speakers-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.section-speakers__message {
+  text-align: center;
+  max-width: 500px;
+  margin: 80px auto;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+}
+
+.section-speakers .subscription-form {
+  margin-bottom: 100px;
+}
+
+.section-speakers__cfp-schedule {
+  margin-bottom: 100px;
 }
 
 .speaker {
