@@ -9,7 +9,7 @@
     {% for p in site.pages %}
       {% if p.menuTitle %}
         <li class="nav-item {% if p.url == page.url %}nav-item--active{% endif %} {% if p.menuHighlighted %}nav-item--highlighted{% endif%}">
-          <a href="{{ site.baseurl }}{{ p.url }}">{{ p.menuTitle }}</a>
+          <a href="{{ p.url }}">{{ p.menuTitle }}</a>
         </li>
       {% endif %}
     {% endfor %}
