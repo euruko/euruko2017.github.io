@@ -44,6 +44,10 @@ a:active {
   text-decoration: underline;
 }
 
+*:focus {
+  outline-color: $primary-color;
+}
+
 /*
   Placeholder
 */
