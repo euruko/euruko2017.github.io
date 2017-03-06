@@ -93,8 +93,9 @@ table td:first-child {
   padding-left: 20px;
 }
 
-@media(max-width: 860px) {
-  table {
-    display: none;
+@media (max-width: 860px) {
+  .table-wrapper {
+    overflow-x: scroll;
+    margin: 0 -9vw;
   }
 }
