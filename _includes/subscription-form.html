@@ -1,7 +1,50 @@
-<form class="subscription-form" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-  <input type="text" name="name" placeholder="your name" required>
-  <input type="email" name="email" placeholder="your@email.com" required>
+<form class="subscription-form" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post" novalidate>
+  <input type="text" name="name" id="name" placeholder="your name">
+  <span id="name-error-message" class="form-error-message form-error-message--hidden">* Inform your name</span>
+  <input type="email" name="email" id="email" placeholder="your@email.com">
+  <span id="email-error-message" class="form-error-message form-error-message--hidden">* Inform a valid email</span>
   <input type="hidden" name="campaign_token" value="nxGbO">
-  <input type="hidden" name="thankyou_url" value="https://www.euruko2017.org/thank-you/"/>
+  <input type="hidden" name="thankyou_url" value="https://www.euruko2017.org/thank-you/">
   <button type="submit">Sign up</button>
 </form>
+<script>
+  var form = document.querySelector('.subscription-form'),
+    nameInput = document.querySelector('#name'),
+    emailInput = document.querySelector('#email'),
+    nameErrorMessage = document.querySelector('#name-error-message'),
+    emailErrorMessage = document.querySelector('#email-error-message')
+
+  form.addEventListener('submit', validateForm)
+
+  function validateForm(event) {
+    var name = nameInput.value.trim(),
+      email = emailInput.value.trim(),
+      nameIsValid = name !== '',
+      emailIsValid = validateEmail(email)
+
+    nameErrorMessage.classList.add('form-error-message--hidden')
+    emailErrorMessage.classList.add('form-error-message--hidden')
+
+    if (nameIsValid && emailIsValid) {
+      return true
+    } else {
+      if (!emailIsValid) {
+        emailErrorMessage.classList.remove('form-error-message--hidden')
+        emailInput.focus()
+      }
+
+      if (!nameIsValid) {
+        nameErrorMessage.classList.remove('form-error-message--hidden')
+        nameInput.focus()
+      }
+
+      event.preventDefault()
+      return false
+    }
+  }
+
+  function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    return re.test(email)
+  }
+</script>

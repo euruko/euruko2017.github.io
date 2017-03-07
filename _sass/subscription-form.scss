@@ -6,7 +6,7 @@
 }
 
 .subscription-form input {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   padding: 10px;
   background-color: transparent;
   border: 0;
@@ -32,4 +32,14 @@
 .subscription-form button:active {
   background-color: $primary-color;
   color: #ffffff;
+}
+
+.form-error-message {
+  margin-bottom: 25px;
+  font-size: 12px;
+  color: red;
+}
+
+.form-error-message--hidden {
+  opacity: 0;
 }
