@@ -42,16 +42,26 @@ permalink: /speakers/
         </tbody>
       </table>
     </div>
-    {% comment %}
+
     <div class="speakers-container">
-      {% for i in (1..10) %}
       <div class="speaker">
-        <img class="speaker__photo" src="/assets/budapest.jpg" alt="Speaker Name">
-        <div class="speaker__name">Speaker Name</div>
-        <div class="speaker__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in ultricies leo. Nulla hendrerit facilisis lorem, sed blandit quam volutpat non.</div>
+        <img class="speaker__photo" src="/assets/speakers/matz.jpg" alt="Yukihiro Matsumoto">
+        <div class="speaker__name">Yukihiro Matsumoto</div>
+        <div class="speaker__title">Yukihiro “Matz” Matsumoto is the mastermind behind the
+        inception of Ruby. Since 1993 he has been designing our precious jewel up to its
+        current version.</div>
       </div>
-      {% endfor %}
+
+      <div class="speaker">
+        <img class="speaker__photo" src="/assets/speakers/headius.jpg" alt="Charles Nutter">
+        <div class="speaker__name">Charles Nutter</div>
+        <div class="speaker__title">JRuby guy, JVM guy. World's only Java Champion and
+        Ruby Hero. He has worked on JRuby for the past eight years and has been a
+        JVM enthusiast since Java 1.0.
+        Charles hopes to make JRuby the best Ruby implementation for high performance,
+        big data, and heavy loads, and to use lessons learned from JRuby to help the JVM
+        and other languages that run on it meet their potential.</div>
+      </div>
     </div>
-    {% endcomment %}
   </div>
 </section>
