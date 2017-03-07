@@ -48,6 +48,26 @@ a:active {
   outline-color: $primary-color;
 }
 
+.button {
+  margin: 0;
+  padding: 10px;
+  background-color: transparent;
+  border: solid 2px $primary-color;
+  border-radius: 5px;
+  color: $primary-color;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: $primary-color;
+  color: #ffffff;
+}
+
+a.button:hover,
+a.button:active {
+  text-decoration: none;
+}
+
 /*
   Placeholder
 */

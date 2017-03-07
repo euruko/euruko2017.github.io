@@ -18,20 +18,8 @@
 }
 
 .subscription-form button {
-  margin: 0;
-  padding: 10px;
-  background-color: transparent;
-  border: solid 2px $primary-color;
-  border-radius: 5px;
-  color: $primary-color;
-  cursor: pointer;
   width: 100%;
   max-width: 150px;
-}
-
-.subscription-form button:active {
-  background-color: $primary-color;
-  color: #ffffff;
 }
 
 .form-error-message {
