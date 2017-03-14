@@ -23,13 +23,13 @@
 }
 
 .speaker {
-  width: 200px;
+  width: 40%;
   margin: 30px 30px 40px;
   text-align: center;
 }
 
 .speaker__photo {
-  width: 100%;
+  width: 200px;
   height: 200px;
   padding: 2px;
   background-color: #f1f1f1;
@@ -44,4 +44,10 @@
 
 .speaker__title {
   color: #e8554e;
+}
+
+@media (max-width: 860px) {
+  .speaker {
+    width: 100%;
+  }
 }
