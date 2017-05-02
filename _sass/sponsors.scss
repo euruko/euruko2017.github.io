@@ -3,6 +3,19 @@
 }
 
 /*
+  List
+*/
+.sponsors-list {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    outline: 0;
+  }
+}
+
+/*
   Call
 */
 .sponsors-call {
