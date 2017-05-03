@@ -6,12 +6,46 @@
   List
 */
 .sponsors-list {
-  margin: 40px auto;
-  display: flex;
-  justify-content: center;
+  margin: 40px auto 80px auto;
 
   &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+    @media (max-width: 860px) {
+      flex-wrap: wrap;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__image {
+    display: flex;
+    margin-right: 40px;
+
+    @media (max-width: 860px) {
+      width: 100%;
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__image-link {
     outline: 0;
+  }
+
+  &__title {
+    color: $primary-color;
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-style: italic;
+    line-height: 1.8;
+  }
+
+  &__link {
+    margin-bottom: 10px;
   }
 }
 
