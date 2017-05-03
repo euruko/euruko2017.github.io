@@ -31,6 +31,13 @@
   background: $primary-color;
 }
 
+.section__small-title {
+  color: $font-color;
+  font-size: 22px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
 .section__side {
   width: 50vw;
 }
