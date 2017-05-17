@@ -20,8 +20,11 @@
   }
 
   &__image {
+    min-width: 300px;
+
     display: flex;
     margin-right: 40px;
+    justify-content: center;
 
     @media (max-width: 860px) {
       width: 100%;
