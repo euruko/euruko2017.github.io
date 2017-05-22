@@ -6,7 +6,28 @@
   List
 */
 .sponsors-list {
-  margin: 40px auto 80px auto;
+  margin: 0px auto 50px auto;
+
+  &__section-title {
+    color: $font-color;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 20px 340px;
+    line-height: 1.8;
+
+    @media (max-width: 860px) {
+      margin: 0 0 20px 0px;
+    }
+  }
+
+  &__section-text {
+    margin: 0 0 40px 340px;
+
+    @media (max-width: 860px) {
+      margin: 0 0 40px 0px;
+    }
+  }
 
   &__item {
     display: flex;
