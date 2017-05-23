@@ -18,22 +18,10 @@
     "introduction": "Bozhidar is the author of RuboCop and the editor of the community Ruby and Rails style guides. Most people would probably describe him as an Emacs zealot (and they would be right). He's also quite fond of the Lisp family of languages, functional programming in general and Clojure in particular.<br/> Believe it or not, Bozhidar has hobbies and interests outside the realm of computers, but we won't bore with those here.",
   },
   {
-    "photo": "/assets/speakers/judit.png",
-    "name": "Judit Ördög-Andrási",
-    "company": "Emarsys",
-    "introduction": "Judit is a software engineer who cares about product and technology, and is passionate about diversity and inclusivity in tech. She works as a full stack developer at Emarsys Technologies, a Budapest-based company making marketing automation software. Previously she worked at Prezi on internal tooling and infrastructure related projects.",
-  },
-  {
     "photo": "/assets/speakers/sebastian.jpg",
     "name": "Sebastian Sogamoso",
     "company": "Cookpad",
     "introduction": "Sebastián is a software engineer at Cookpad. He likes burritos, pear programming and teaching and organizes RubyConf Colombia",
-  },
-  {
-    "photo": "/assets/speakers/arafat.jpg",
-    "name": "Arafat Khan",
-    "company": "",
-    "introduction": "I am doing my bachelors degree at IIT Kharagpur and I am the author of tensorflow.rb which was funded initially by Somatic.io and later I got selected for the Ruby Grant 2016. Aside from Open source I am also a high rated competitive programmer. I am also interested in Research and I am selected for MITACS Research internship in Simon Fraser University, Canada and will be working on a Medical Imaging project.",
   },
   {
     "photo": "/assets/speakers/sai.jpg",
@@ -78,7 +66,19 @@
     "introduction": "Alex Qin is a Brooklyn based software engineer and educator. She cares deeply about access to computer science education, and about leveraging technology to create positive social change. She works at Skillshare, where she leads the Web engineering team, and co-organizes Codeshare, an inclusive and intimate gathering of programmers interested in the intersection of code, creativity, and art. She is also the founder and lead teacher of the Code Cooperative, an open source educational program in which former inmates learn to code as a means to creating social change.",
   },
   {
-    "photo": "/assets/speakers/erik.png",
+    "photo": "/assets/speakers/placeholder.png",
+    "name": "Judit Ördög-Andrási",
+    "company": "Emarsys",
+    "introduction": "Judit is a software engineer who cares about product and technology, and is passionate about diversity and inclusivity in tech. She works as a full stack developer at Emarsys Technologies, a Budapest-based company making marketing automation software. Previously she worked at Prezi on internal tooling and infrastructure related projects.",
+  },
+  {
+    "photo": "/assets/speakers/placeholder.png",
+    "name": "Arafat Khan",
+    "company": "",
+    "introduction": "I am doing my bachelors degree at IIT Kharagpur and I am the author of tensorflow.rb which was funded initially by Somatic.io and later I got selected for the Ruby Grant 2016. Aside from Open source I am also a high rated competitive programmer. I am also interested in Research and I am selected for MITACS Research internship in Simon Fraser University, Canada and will be working on a Medical Imaging project.",
+  },
+  {
+    "photo": "/assets/speakers/placeholder.png",
     "name": "Erik Romijn",
     "company": "Dutch Django Association",
     "introduction": "Erik is the co-founder and CTO of a small Django development company in Amsterdam. They are deeply involved in the community around Django, a popular Python web framework, being a Django team member and co-organiser of various conferences. Erik has a particular interest in well-being and ethical issues around communities and development.",
