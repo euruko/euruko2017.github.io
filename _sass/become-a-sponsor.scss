@@ -1,0 +1,36 @@
+.section-become-a-sponsor {
+  background: #ffffff;
+}
+
+/*
+  Packages
+*/
+.sponsors-packages {
+  margin-bottom: 30px;
+}
+
+.sponsors-packages__package {
+  color: $primary-color;
+}
+
+.included-icon {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url('./icon-check.svg');
+  background-repeat: no-repeat;
+}
+
+.not-included-icon {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url('./icon-cross.svg');
+  background-repeat: no-repeat;
+}
+
+.sponsors-packages-observations {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 12px;
+}
