@@ -100,6 +100,47 @@
 */
 .section-home-speakers {
   background: #ffffff;
+
+  &__speakers-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 40px 0 40px;
+    justify-content: center;
+  }
+
+  &__speaker {
+    width: 20%;
+
+    padding: 20px 40px 20px 40px;
+
+    @media(max-width: 1450px) {
+      width: 25%;
+    }
+
+    @media(max-width: 1150px) {
+      width: 33.333%;
+    }
+
+    @media(max-width: 860px) {
+      width: 100%;
+    }
+
+  }
+
+  &__speaker-photo {
+    width: 100%;
+    // width: 200px;
+    // height: 200px;
+    padding: 2px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.7);
+  }
+
+  &__speaker-name {
+    font-size: 18px;
+    font-style: italic;
+    margin: 5px 0;
+  }
 }
 
 /*
