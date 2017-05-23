@@ -13,9 +13,11 @@ permalink: /speakers/
       {% for speaker in site.data.speakers %}
         <div class="speaker">
           <img class="speaker__photo" src="{{ speaker.photo }}" alt="{{ speaker.name }}">
-          <div class="speaker__name">{{ speaker.name }}</div>
-          <div class="speaker__company">{{ speaker.company }}</div>
-          <div class="speaker__title">{{ speaker.introduction }}</div>
+          <div class="speaker__details">
+            <div class="speaker__name">{{ speaker.name }}</div>
+            <div class="speaker__company">{{ speaker.company }}</div>
+            <div class="speaker__title">{{ speaker.introduction }}</div>
+          </div>
         </div>
       {% endfor %}
 
