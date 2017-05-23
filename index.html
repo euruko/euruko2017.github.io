@@ -30,14 +30,21 @@ menuTitle: Home
   </div>
 </section>
 
-{% comment %}
 <section class="section-home-speakers">
   <div class="section-container section-container--full">
     <h2 class="section__title">Speakers</h2>
-    <p>Coming soon...</p>
+    <div class="section-home-speakers__speakers-list">
+
+      {% for speaker in site.data.speakers %}
+        <div class="section-home-speakers__speaker">
+          <img class="section-home-speakers__speaker-photo" src="{{ speaker.photo }}" alt="{{ speaker.name }}">
+          <div class="section-home-speakers__speaker-name">{{ speaker.name }}</div>
+        </div>
+      {% endfor %}
+
+    </div>
   </div>
 </section>
-{% endcomment %}
 
 <section class="section-home-location">
   <div class="section-container section-container--divided">

@@ -5,38 +5,22 @@ menuTitle: Speakers
 permalink: /speakers/
 ---
 <section class="section-speakers">
+
   <div class="section-container section-container--full">
     <h2 class="section__title">Speakers</h2>
-    <div class="table-wrapper">
-      <table>
-        <thead>
-          <tr>
-            <th colspan="3">CFP's Schedule</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Phase 1: Proposal submissions</td>
-            <td>20th March - 14th April</td>
-            <td>Completed</td>
-          </tr>
-          <tr>
-            <td>Phase 2: Selection</td>
-            <td>15th April - 23rd April</td>
-            <td>Completed</td>
-          </tr>
-          <tr>
-            <td>Speakers confirmation</td>
-            <td>24th April - 2nd May</td>
-            <td>In progress</td>
-          </tr>
-          <tr>
-            <td>Final lineup announcement</td>
-            <td>4th May</td>
-            <td>Scheduled</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="speakers-container">
+
+      {% for speaker in site.data.speakers %}
+        <div class="speaker">
+          <img class="speaker__photo" src="{{ speaker.photo }}" alt="{{ speaker.name }}">
+          <div class="speaker__details">
+            <div class="speaker__name">{{ speaker.name }}</div>
+            <div class="speaker__company">{{ speaker.company }}</div>
+            <div class="speaker__title">{{ speaker.introduction }}</div>
+          </div>
+        </div>
+      {% endfor %}
+
     </div>
   </div>
 
@@ -78,33 +62,6 @@ permalink: /speakers/
       Subscribe our newsletter to receive information about the CFP's and the Speakers
     </div>
     {% include subscription-form.html %}
-
-    <div class="speakers-container">
-      <div class="speaker">
-        <img class="speaker__photo" src="/assets/speakers/matz.jpg" alt="Yukihiro Matsumoto">
-        <div class="speaker__name">Yukihiro Matsumoto</div>
-        <div class="speaker__title">Yukihiro “Matz” Matsumoto is the mastermind behind the
-        inception of Ruby. Since 1993 he has been designing our precious jewel up to its
-        current version.</div>
-      </div>
-
-      <div class="speaker">
-        <img class="speaker__photo" src="/assets/speakers/headius.jpg" alt="Charles Nutter">
-        <div class="speaker__name">Charles Nutter</div>
-        <div class="speaker__title">JRuby guy, JVM guy. World's only Java Champion and
-        Ruby Hero. He has worked on JRuby for the past eight years and has been a
-        JVM enthusiast since Java 1.0.
-        Charles hopes to make JRuby the best Ruby implementation for high performance,
-        big data, and heavy loads, and to use lessons learned from JRuby to help the JVM
-        and other languages that run on it meet their potential.</div>
-      </div>
-
-      <div class="speaker">
-        <img class="speaker__photo" src="/assets/speakers/bozhidar.jpg" alt="Bozhidar Batsov">
-        <div class="speaker__name">Bozhidar Batsov</div>
-        <div class="speaker__title">Bozhidar is the author of RuboCop and the editor of the community Ruby and Rails style guides. Most people would probably describe him as an Emacs zealot (and they would be right). He's also quite fond of the Lisp family of languages, functional programming in general and Clojure in particular.<br/>
-        Believe it or not, Bozhidar has hobbies and interests outside the realm of computers, but we won't bore with those here.
-      </div>
-    </div>
   </div>
+
 </section>

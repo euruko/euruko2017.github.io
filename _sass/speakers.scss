@@ -6,6 +6,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 40px;
+  margin-bottom: -60px;
+
 }
 
 .section-speakers__message {
@@ -23,31 +26,50 @@
 }
 
 .speaker {
-  width: 40%;
-  margin: 30px 30px 40px;
-  text-align: center;
-}
+  display: flex;
+  padding: 0 40px 60px 0;
 
-.speaker__photo {
-  width: 200px;
-  height: 200px;
-  padding: 2px;
-  background-color: #f1f1f1;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.7);
-}
+  width: 50%;
 
-.speaker__name {
-  font-size: 18px;
-  font-style: italic;
-  margin: 5px 0;
-}
-
-.speaker__title {
-  color: #e8554e;
-}
-
-@media (max-width: 860px) {
-  .speaker {
+  @media (max-width: 1200px) {
     width: 100%;
   }
+
+  @media (max-width: 860px) {
+    padding: 0 0 60px 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__details {
+    margin: 0 0 0 30px;
+
+    @media (max-width: 860px) {
+      margin: 20px 0 0 0;
+    }
+  }
+
+  &__photo {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.7);
+  }
+
+  &__name {
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  &__company {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #e8554e;
+  }
+
+  &__introduction {
+    color: #000000;
+  }
 }
+
