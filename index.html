@@ -34,62 +34,14 @@ menuTitle: Home
   <div class="section-container section-container--full">
     <h2 class="section__title">Speakers</h2>
     <div class="section-home-speakers__speakers-list">
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/matz.jpg" alt="Yukihiro Matsumoto">
-        <div class="section-home-speakers__speaker-name">Yukihiro Matsumoto</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/headius.jpg" alt="Charles Nutter">
-        <div class="section-home-speakers__speaker-name">Charles Nutter</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/bozhidar.jpg" alt="Bozhidar Batsov">
-        <div class="section-home-speakers__speaker-name">Bozhidar Batsov</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/judit.png" alt="Judit Ördög-Andrási">
-        <div class="section-home-speakers__speaker-name">Judit Ördög-Andrási</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/sebastian.jpg" alt="Sebastian Sogamoso">
-        <div class="section-home-speakers__speaker-name">Sebastian Sogamoso</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/arafat.jpg" alt="Arafat Khan">
-        <div class="section-home-speakers__speaker-name">Arafat Khan</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/sai.jpg" alt="Sai Warang">
-        <div class="section-home-speakers__speaker-name">Sai Warang</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/tomek.jpg" alt="Tomek Rusiłko">
-        <div class="section-home-speakers__speaker-name">Tomek Rusiłko</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/katelyn.jpg" alt="Katelyn Hertel">
-        <div class="section-home-speakers__speaker-name">Katelyn Hertel</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/katarzyna.jpg" alt="Katarzyna Turbiasz-Bugała">
-        <div class="section-home-speakers__speaker-name">Katarzyna Turbiasz-Bugała</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/netto.jpg" alt="Netto Farah">
-        <div class="section-home-speakers__speaker-name">Netto Farah</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/anthony.jpg" alt="Anthony Zacharakis">
-        <div class="section-home-speakers__speaker-name">Anthony Zacharakis</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/alex.jpg" alt="Alex Qin">
-        <div class="section-home-speakers__speaker-name">Alex Qin</div>
-      </div>
-      <div class="section-home-speakers__speaker">
-        <img class="section-home-speakers__speaker-photo" src="/assets/speakers/erik.png" alt="Erik Romijn">
-        <div class="section-home-speakers__speaker-name">Erik Romijn</div>
-      </div>
+
+      {% for speaker in site.data.speakers %}
+        <div class="section-home-speakers__speaker">
+          <img class="section-home-speakers__speaker-photo" src="{{ speaker.photo }}" alt="{{ speaker.name }}">
+          <div class="section-home-speakers__speaker-name">{{ speaker.name }}</div>
+        </div>
+      {% endfor %}
+
     </div>
   </div>
 </section>
