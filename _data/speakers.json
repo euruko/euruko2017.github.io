@@ -12,6 +12,12 @@
     "introduction": "JRuby guy, JVM guy. World's only Java Champion and Ruby Hero. He has worked on JRuby for the past eight years and has been a JVM enthusiast since Java 1.0. Charles hopes to make JRuby the best Ruby implementation for high performance, big data, and heavy loads, and to use lessons learned from JRuby to help the JVM and other languages that run on it meet their potential.",
   },
   {
+    "photo": "/assets/speakers/judit.jpg",
+    "name": "Judit Ördög-Andrási",
+    "company": "Emarsys",
+    "introduction": "Judit is a software engineer who cares about product and technology, and is passionate about diversity and inclusivity in tech. She works as a full stack developer at Emarsys Technologies, a Budapest-based company making marketing automation software. Previously she worked at Prezi on internal tooling and infrastructure related projects.",
+  },
+  {
     "photo": "/assets/speakers/bozhidar.jpg",
     "name": "Bozhidar Batsov",
     "company": "",
@@ -64,12 +70,6 @@
     "name": "Alex Qin",
     "company": "Skillshare",
     "introduction": "Alex Qin is a Brooklyn based software engineer and educator. She cares deeply about access to computer science education, and about leveraging technology to create positive social change. She works at Skillshare, where she leads the Web engineering team, and co-organizes Codeshare, an inclusive and intimate gathering of programmers interested in the intersection of code, creativity, and art. She is also the founder and lead teacher of the Code Cooperative, an open source educational program in which former inmates learn to code as a means to creating social change.",
-  },
-  {
-    "photo": "/assets/speakers/placeholder.png",
-    "name": "Judit Ördög-Andrási",
-    "company": "Emarsys",
-    "introduction": "Judit is a software engineer who cares about product and technology, and is passionate about diversity and inclusivity in tech. She works as a full stack developer at Emarsys Technologies, a Budapest-based company making marketing automation software. Previously she worked at Prezi on internal tooling and infrastructure related projects.",
   },
   {
     "photo": "/assets/speakers/placeholder.png",
