@@ -92,7 +92,7 @@
   },
   {
     "id": "erik",
-    "photo": "/assets/speakers/placeholder.png",
+    "photo": "/assets/speakers/erik.jpg",
     "name": "Erik Romijn",
     "company": "Dutch Django Association",
     "introduction": "Erik is the co-founder and CTO of a small Django development company in Amsterdam. They are deeply involved in the community around Django, a popular Python web framework, being a Django team member and co-organiser of various conferences. Erik has a particular interest in well-being and ethical issues around communities and development.",
