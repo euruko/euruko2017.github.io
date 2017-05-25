@@ -129,11 +129,18 @@
     @media(max-width: 520px) {
       width: 100%;
     }
+
+    &:hover { text-decoration: none; }
   }
 
   &__speaker-photo {
     width: 100%;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.7);
+    transition: box-shadow 300ms ease;
+  }
+
+  &__speaker:hover &__speaker-photo {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
   }
 
   &__speaker-name {
