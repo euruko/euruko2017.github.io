@@ -11,7 +11,7 @@ permalink: /speakers/
     <div class="speakers-container">
 
       {% for speaker in site.data.speakers %}
-        <div class="speaker">
+        <div class="speaker" id="{{ speaker.id }}">
           <img class="speaker__photo" src="{{ speaker.photo }}" alt="{{ speaker.name }}">
           <div class="speaker__details">
             <div class="speaker__name">{{ speaker.name }}</div>
@@ -65,3 +65,19 @@ permalink: /speakers/
   </div>
 
 </section>
+
+<script>
+
+  (function(){
+
+    if ( window.location.hash ) {
+      var selectedSpeaker = document.querySelector( window.location.hash + ".speaker" );
+
+      if ( selectedSpeaker ) {
+        selectedSpeaker.className += " speaker--selected";
+      }
+    }
+
+  })();
+
+</script>
