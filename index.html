@@ -28,7 +28,7 @@ menuTitle: Home
       {% for speaker in site.data.speakers %}
         <a
           class="section-home-speakers__speaker"
-          href="/speakers#{{ speaker.id }}"
+          href="/speakers/#{{ speaker.id }}"
         >
           <img class="section-home-speakers__speaker-photo" src="{{ speaker.photo }}" alt="{{ speaker.name }}">
           <div class="section-home-speakers__speaker-name">{{ speaker.name }}</div>
