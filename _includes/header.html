@@ -6,7 +6,8 @@
     <span></span>
   </label>
   <ul class="nav">
-    {% for p in site.pages %}
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for p in sorted_pages %}
       {% if p.menuTitle %}
         <li class="nav-item {% if p.url == page.url %}nav-item--active{% endif %} {% if p.menuHighlighted %}nav-item--highlighted{% endif%}">
           <a href="{{ p.url }}">{{ p.menuTitle }}</a>
