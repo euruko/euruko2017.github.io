@@ -8,6 +8,20 @@
   padding: 5vh 0;
 }
 
+.section-container--half {
+  margin: 0 auto;
+
+  padding-top: 83px;
+  @media(min-width: 860px) { padding-top: 0px; }
+
+  padding-bottom: 5vh;
+
+  width: 90vw;
+  @media(min-width: 860px) { width: 80vw; }
+  @media(min-width: 1200px) { width: 70vw; }
+  @media(min-width: 1600px) { width: 50vw; }
+}
+
 .section-container--divided {
   display: flex;
 }
