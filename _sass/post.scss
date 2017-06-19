@@ -54,5 +54,13 @@
     margin-left: 20px;
     list-style-type: disc;
     list-style-position: inside;
+
+    a {
+      text-decoration: underline;
+
+      color: $font-color;
+
+      &:hover { color: $primary-color; }
+    }
   }
 }
