@@ -1,0 +1,30 @@
+---
+layout: page
+title: Blog
+menuTitle: Blog
+permalink: /blog/
+order: 2
+---
+<section class="section-blog">
+  <div class="section-container section-container--half">
+    {% for post in site.posts %}
+      <div class="blog-post">
+        <div class="blog-post__image" style="background-image: url('{{ post.image }}');"></div>
+        <div class="blog-post__content">
+          <a href="{{ post.url }}" class="section__title blog-post__title">
+            {{ post.title }}
+          </a>
+          <div class="blog-post__data">
+            {{ post.date | date: "%F %R" }} {{ post.author }}
+          </div>
+          <div class="blog-post__excerpt">
+            {{ post.excerpt }}
+          </div>
+          <a href="{{ post.url }}">
+            READ MORE
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+<section class="section-blog">
