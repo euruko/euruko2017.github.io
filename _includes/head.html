@@ -1,6 +1,4 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ site.description }}">
 <link rel="stylesheet" href="/assets/main.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -12,4 +10,33 @@
 <meta name="theme-color" content="#363333">
 <link rel="manifest" href="/assets/favicons/manifest.json">
 
-<meta property="og:image" content="https://euruko2017.org/assets/facebook-header.png">
+{% if page.title %}
+  {% assign title = page.title | append: " | " | append: site.title %}
+{% else %}
+  {% assign title = site.title %}
+{% endif %}
+<title>{{ title }}</title>
+<meta property="og:title" content="{{ title }}" />
+<meta name="twitter:title" content="{{ title }}" />
+<meta itemprop="name" content="{{ title }}" />
+
+{% if page.excerpt %}
+  {% assign description = page.excerpt %}
+{% else %}
+  {% assign description = site.description %}
+{% endif %}
+<meta name="description" content="{{ description }}" />
+<meta property="og:description" content="{{ description }}" />
+<meta name="twitter:description" content="{{ description }}" />
+<meta itemprop="description" content="{{ description }}" />
+
+{% if page.image %}
+  {% assign image = "https://euruko2017.org" | append: page.image %}
+{% else %}
+  {% assign image = "https://euruko2017.org/assets/facebook-header.png" %}
+{% endif %}
+<meta property="og:image" content="{{ image }}" />
+<meta name="twitter:image:src" content="{{ image }}" />
+<meta itemprop="image" content="{{ image }}" />
+
+<meta name="twitter:card" content="summary_large_image" />
