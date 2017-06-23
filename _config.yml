@@ -7,3 +7,5 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+gems:
+  - jekyll-redirect-from
