@@ -77,6 +77,13 @@
     "introduction": "Anthony Zacharakis works on payments and billing at DigitalOcean (PDX division). He's been working on billing systems of all shapes and flavors for his entire career and isn't (that) scared of them anymore. He switched to the world of Ruby six years ago and has been a loyal supporter ever since.",
   },
   {
+    "id": "anna",
+    "photo": "/assets/speakers/anna.jpg",
+    "name": "Anna Shcherbinina",
+    "company": "",
+    "introduction": "I'm software engineer at Artec3D. We make the best hand-held 3D scanners and software in the world. I lead web development in Artec3D and we are developing web side 3d scanning services."
+  },
+  {
     "id": "arafat",
     "photo": "/assets/speakers/arafat.jpg",
     "name": "Arafat Khan",
