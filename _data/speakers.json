@@ -10,7 +10,7 @@
     "id": "headius",
     "photo": "/assets/speakers/headius.jpg",
     "name": "Charles Nutter",
-    "company": "",
+    "company": "Red Hat",
     "introduction": "JRuby guy, JVM guy. World's only Java Champion and Ruby Hero. He has worked on JRuby for the past eight years and has been a JVM enthusiast since Java 1.0. Charles hopes to make JRuby the best Ruby implementation for high performance, big data, and heavy loads, and to use lessons learned from JRuby to help the JVM and other languages that run on it meet their potential.",
   },
   {
@@ -73,8 +73,15 @@
     "id": "anthony",
     "photo": "/assets/speakers/anthony.jpg",
     "name": "Anthony Zacharakis",
-    "company": "",
+    "company": "DigitalOcean",
     "introduction": "Anthony Zacharakis works on payments and billing at DigitalOcean (PDX division). He's been working on billing systems of all shapes and flavors for his entire career and isn't (that) scared of them anymore. He switched to the world of Ruby six years ago and has been a loyal supporter ever since.",
+  },
+  {
+    "id": "anna",
+    "photo": "/assets/speakers/anna.jpg",
+    "name": "Anna Shcherbinina",
+    "company": "",
+    "introduction": "I'm software engineer at Artec3D. We make the best hand-held 3D scanners and software in the world. I lead web development in Artec3D and we are developing web side 3d scanning services."
   },
   {
     "id": "arafat",
