@@ -88,6 +88,14 @@
     "photo": "/assets/speakers/erik.jpg",
     "name": "Erik Romijn",
     "company": "",
-    "introduction": "Erik is the co-founder and CTO of a small Django development company in Amsterdam. They are deeply involved in the community around Django, a popular Python web framework, being a Django team member and co-organiser of various conferences. Erik has a particular interest in well-being and ethical issues around communities and development.",
+    "introduction": "Erik is the co-founder and CTO of a small Django development company in Amsterdam. They are deeply involved in the community around Django, a popular Python web framework, being a Django team member and co-organiser of various conferences. Erik has a particular interest in well-being and ethical issues around communities and development."
+  },
+  {
+    "id": "wojtek",
+    "photo": "/assets/speakers/wojtek.jpg",
+    "name": "Wojtek Rząsa",
+    "company": "",
+    "introduction": "Informatics specialist by passion and by profession. A PhD but primarily an engineer. Interested in distributed systems and software development. With special passion for programming and for Ruby. Works at Rzeszow University of Technology (Rzeszow, Poland), among the others teaches Ruby and Ruby on Rails. Involved in Rzeszow Ruby User Group (http://rrug.pl). More on linkedin: https://www.linkedin.com/in/wrzasa/
+"
   }
 ]
