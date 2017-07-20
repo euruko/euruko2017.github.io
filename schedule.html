@@ -1,0 +1,26 @@
+---
+layout: page
+title: Talks
+menuTitle: Talks
+permalink: /talks/
+order: 6
+---
+<section class="section-schedule">
+  <div class="section-container section-container--full">
+    <h2 class="section__title">Talks</h2>
+    <table>
+      {% for speaker in site.data.speakers %}
+      <tr>
+        <td>
+          <a href="/speakers/#{{ speaker.id }}">
+            {{ speaker.name }}
+          </a>
+        </td>
+        <td class="schedule-talk">
+          {{ speaker.talk_title }}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</section>
