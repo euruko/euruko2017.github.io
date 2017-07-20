@@ -9,14 +9,11 @@
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for p in sorted_pages %}
       {% if p.menuTitle %}
-        <li class="nav-item {% if p.url == page.url %}nav-item--active{% endif %} {% if p.menuHighlighted %}nav-item--highlighted{% endif%}">
+        <li class="nav-item {% if p.url == page.url or p.url == include.menu_url %}nav-item--active{% endif %} {% if p.menuHighlighted %}nav-item--highlighted{% endif%}">
           <a href="{{ p.url }}">{{ p.menuTitle }}</a>
         </li>
       {% endif %}
     {% endfor %}
-    <li class="nav-item">
-      <a href="/2017/06/21/diversity-program.html">Diversity</a>
-    </li>
     <li class="nav-item nav-item--highlighted">
       <a
         href="https://euruko2017.yapsody.com/event/book/95176/395926"

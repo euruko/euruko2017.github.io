@@ -6,6 +6,7 @@ author: "Daniella Varga"
 image:  "/assets/diversity-program.jpg"
 excerpt: "We are releasing our Diversity Program so we can make the conference as accessible as possible to everyone."
 redirect_from: "2017/06/21/diversity-program-at-euruko-2017.html"
+post_id: "diversity"
 ---
 
 # Diversity Program at EuRuKo 2017

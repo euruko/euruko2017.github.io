@@ -5,6 +5,7 @@ date:   2017-06-15 17:00:00
 author: "Daniella Varga"
 image:  "/assets/budapest.jpg"
 excerpt: "We have a series of posts coming up to help you get the best out of your trip to Budapest for this year’s conference."
+post_id: "welcome"
 ---
 
 # WELCOME TO BUDAPEST!
