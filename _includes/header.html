@@ -9,7 +9,7 @@
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for p in sorted_pages %}
       {% if p.menuTitle %}
-        <li class="nav-item {% if p.url == page.url %}nav-item--active{% endif %} {% if p.menuHighlighted %}nav-item--highlighted{% endif%}">
+        <li class="nav-item {% if p.url == page.url or p.url == include.menu_url %}nav-item--active{% endif %} {% if p.menuHighlighted %}nav-item--highlighted{% endif%}">
           <a href="{{ p.url }}">{{ p.menuTitle }}</a>
         </li>
       {% endif %}
