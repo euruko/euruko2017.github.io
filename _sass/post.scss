@@ -67,4 +67,15 @@
       &:hover { color: $primary-color; }
     }
   }
+
+  img {
+    width: 100%;
+
+    @media (min-width: 860px) {
+      width: 50%;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      float: right;
+    }
+  }
 }
