@@ -1,26 +1,45 @@
 ---
 layout: page
-title: Talks
-menuTitle: Talks
-permalink: /talks/
+title: Schedule
+menuTitle: Schedule
+permalink: /schedule/
+redirect_from: /talks/
 order: 6
 ---
 <section class="section-schedule">
   <div class="section-container section-container--full">
-    <h2 class="section__title">Talks</h2>
-    <table>
-      {% for speaker in site.data.speakers %}
-      <tr>
-        <td>
-          <a href="/speakers/#{{ speaker.id }}">
-            {{ speaker.name }}
-          </a>
-        </td>
-        <td class="schedule-talk">
-          {{ speaker.talk_title }}
-        </td>
-      </tr>
-      {% endfor %}
-    </table>
+    <h2 class="section__title">Schedule</h2>
+    {% for day in site.data.schedule %}
+      <div class="schedule-day">
+        <h3 class="schedule-date">
+          {{ day.date }} {{ day.day }}
+        </h3>
+        <table>
+          {% for event in day.events %}
+            <tr>
+              <td class="schedule-time">
+                {{ event.time }}
+              </td>
+              <td class="schedule-title">
+                <div>
+                  {{ event.title }}
+                </div>
+                {% if event.speaker_id %}
+                  <div>
+                    <a href="/speakers/#{{ event.speaker_id }}">
+                      {% for speaker in site.data.speakers %}
+                        {% if speaker.id == event.speaker_id %}
+                          {{ speaker.name }}
+                        {% endif %}
+                      {% endfor %}
+                    </a>
+                  </div>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+    {% endfor %}
   </div>
 </section>

@@ -4,111 +4,97 @@
     "photo": "/assets/speakers/matz.jpg",
     "name": "Yukihiro Matsumoto",
     "company": "",
-    "introduction": "Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its current version.",
-    "talk_title": "Keynote"
+    "introduction": "Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its current version."
   },
   {
     "id": "headius",
     "photo": "/assets/speakers/headius.jpg",
     "name": "Charles Nutter",
     "company": "Red Hat",
-    "introduction": "JRuby guy, JVM guy. World's only Java Champion and Ruby Hero. He has worked on JRuby for the past eight years and has been a JVM enthusiast since Java 1.0. Charles hopes to make JRuby the best Ruby implementation for high performance, big data, and heavy loads, and to use lessons learned from JRuby to help the JVM and other languages that run on it meet their potential.",
-    "talk_title": "Keynote"
+    "introduction": "JRuby guy, JVM guy. World's only Java Champion and Ruby Hero. He has worked on JRuby for the past eight years and has been a JVM enthusiast since Java 1.0. Charles hopes to make JRuby the best Ruby implementation for high performance, big data, and heavy loads, and to use lessons learned from JRuby to help the JVM and other languages that run on it meet their potential."
   },
   {
     "id": "judit",
     "photo": "/assets/speakers/judit.jpg",
     "name": "Judit Ördög-Andrási",
     "company": "Emarsys",
-    "introduction": "Judit is a software engineer who cares about product and technology, and is passionate about diversity and inclusivity in tech. She works as a full stack developer at Emarsys Technologies, a Budapest-based company making marketing automation software. Previously she worked at Prezi on internal tooling and infrastructure related projects.",
-    "talk_title": "Case Study: The Real Black Friday aka How To Scale an Unscalable Service"
+    "introduction": "Judit is a software engineer who cares about product and technology, and is passionate about diversity and inclusivity in tech. She works as a full stack developer at Emarsys Technologies, a Budapest-based company making marketing automation software. Previously she worked at Prezi on internal tooling and infrastructure related projects."
   },
   {
     "id": "bozhidar",
     "photo": "/assets/speakers/bozhidar.jpg",
     "name": "Bozhidar Batsov",
     "company": "",
-    "introduction": "Bozhidar is the author of RuboCop and the editor of the community Ruby and Rails style guides. Most people would probably describe him as an Emacs zealot (and they would be right). He's also quite fond of the Lisp family of languages, functional programming in general and Clojure in particular.<br/> Believe it or not, Bozhidar has hobbies and interests outside the realm of computers, but we won't bore with those here.",
-    "talk_title": "Ruby 4.0: To Infinity and Beyond"
+    "introduction": "Bozhidar is the author of RuboCop and the editor of the community Ruby and Rails style guides. Most people would probably describe him as an Emacs zealot (and they would be right). He's also quite fond of the Lisp family of languages, functional programming in general and Clojure in particular.<br/> Believe it or not, Bozhidar has hobbies and interests outside the realm of computers, but we won't bore with those here."
   },
   {
     "id": "sebastian",
     "photo": "/assets/speakers/sebastian.jpg",
     "name": "Sebastian Sogamoso",
     "company": "Cookpad",
-    "introduction": "Sebastián is a software engineer at Cookpad. He likes burritos, pear programming and teaching and organizes RubyConf Colombia",
-    "talk_title": "The overnight failure"
+    "introduction": "Sebastián is a software engineer at Cookpad. He likes burritos, pear programming and teaching and organizes RubyConf Colombia"
   },
   {
     "id": "sai",
     "photo": "/assets/speakers/sai.jpg",
     "name": "Sai Warang",
     "company": "Shopify",
-    "introduction": "When not helping build and grow Shopify Capital, I like reading existentialist philosophy and finding opportunities to dance to Bhangra music.",
-    "talk_title": "Data-driven production apps"
+    "introduction": "When not helping build and grow Shopify Capital, I like reading existentialist philosophy and finding opportunities to dance to Bhangra music."
   },
   {
     "id": "katelyn",
     "photo": "/assets/speakers/katelyn.jpg",
     "name": "Katelyn Hertel",
     "company": "Fastly",
-    "introduction": "Katelyn is a Customer Support Engineer (CSE) out of the Fastly’s NYC office, where she spends her time on support tickets and working with the TLS team. Before she was a CSE, she attended the bootcamp Bloc.io where she studied Ruby & Rails. She's a history nerd and likes to study languages such as Latin and Ancient Greek. In her free time she enjoys playing soccer and video games, looking at pictures of puppies, and keeping her code skills up.",
-    "talk_title": "How to Make It As A Junior Dev and Stay Sane"
+    "introduction": "Katelyn is a Customer Support Engineer (CSE) out of the Fastly’s NYC office, where she spends her time on support tickets and working with the TLS team. Before she was a CSE, she attended the bootcamp Bloc.io where she studied Ruby & Rails. She's a history nerd and likes to study languages such as Latin and Ancient Greek. In her free time she enjoys playing soccer and video games, looking at pictures of puppies, and keeping her code skills up."
   },
   {
     "id": "katarzyna",
     "photo": "/assets/speakers/katarzyna.jpg",
     "name": "Katarzyna Turbiasz-Bugała",
     "company": "Rebased",
-    "introduction": "Philologist by graduation, genealogist and probate researcher by the longest work experience, Rails Girls attendee by luck, web developer at Rebased by far. In love-hate relationship with Elasticsearch. Apart from playing with code, discovers playing console games, reads and laughs plenty, playing and dances samba Brasil.",
-    "talk_title": "Things I Learned the Hard Way Building a Search Engine"
+    "introduction": "Philologist by graduation, genealogist and probate researcher by the longest work experience, Rails Girls attendee by luck, web developer at Rebased by far. In love-hate relationship with Elasticsearch. Apart from playing with code, discovers playing console games, reads and laughs plenty, playing and dances samba Brasil."
   },
   {
     "id": "netto",
     "photo": "/assets/speakers/netto.jpg",
     "name": "Netto Farah",
     "company": "Segment",
-    "introduction": "Netto Farah is a Lead Software Engineer at Segment. A lover of everything Rails and Javascript, Netto is always looking for creative ways to build great user experiences on the web.",
-    "talk_title": "Rescuing legacy codebases with GraphQL and Rails"
+    "introduction": "Netto Farah is a Lead Software Engineer at Segment. A lover of everything Rails and Javascript, Netto is always looking for creative ways to build great user experiences on the web."
   },
   {
     "id": "anthony",
     "photo": "/assets/speakers/anthony.jpg",
     "name": "Anthony Zacharakis",
     "company": "DigitalOcean",
-    "introduction": "Anthony Zacharakis works on payments and billing at DigitalOcean (PDX division). He's been working on billing systems of all shapes and flavors for his entire career and isn't (that) scared of them anymore. He switched to the world of Ruby six years ago and has been a loyal supporter ever since.",
-    "talk_title": "Distributed Systems: Your Only Guarantee Is Inconsistency"
+    "introduction": "Anthony Zacharakis works on payments and billing at DigitalOcean (PDX division). He's been working on billing systems of all shapes and flavors for his entire career and isn't (that) scared of them anymore. He switched to the world of Ruby six years ago and has been a loyal supporter ever since."
   },
   {
     "id": "anna",
     "photo": "/assets/speakers/anna.jpg",
     "name": "Anna Shcherbinina",
     "company": "",
-    "introduction": "I'm software engineer at Artec3D. We make the best hand-held 3D scanners and software in the world. I lead web development in Artec3D and we are developing web side 3d scanning services.",
-    "talk_title": "Issues with asynchronous interaction"
+    "introduction": "I'm software engineer at Artec3D. We make the best hand-held 3D scanners and software in the world. I lead web development in Artec3D and we are developing web side 3d scanning services."
   },
   {
     "id": "arafat",
     "photo": "/assets/speakers/arafat.jpg",
     "name": "Arafat Khan",
     "company": "",
-    "introduction": "I am doing my bachelors degree at IIT Kharagpur and I am the author of tensorflow.rb which was funded initially by Somatic.io and later I got selected for the Ruby Grant 2016. Aside from Open source I am also a high rated competitive programmer. I am also interested in Research and I am selected for MITACS Research internship in Simon Fraser University, Canada and will be working on a Medical Imaging project.",
-    "talk_title": "Introducing Tensorflow Ruby API"
+    "introduction": "I am doing my bachelors degree at IIT Kharagpur and I am the author of tensorflow.rb which was funded initially by Somatic.io and later I got selected for the Ruby Grant 2016. Aside from Open source I am also a high rated competitive programmer. I am also interested in Research and I am selected for MITACS Research internship in Simon Fraser University, Canada and will be working on a Medical Imaging project."
   },
   {
     "id": "sasha",
     "photo": "/assets/speakers/sasha.png",
     "name": "Erik Sasha Romijn",
     "company": "",
-    "introduction": "Sasha is the co-founder and CTO of a small Django development company in Amsterdam. They are deeply involved in the community around Django, a popular Python web framework, being a Django team member and co-organiser of various conferences. Sasha has a particular interest in well-being and ethical issues around communities and development.",
-    "talk_title": "Helping communities & products thrive by fostering empathy"
+    "introduction": "Sasha is the co-founder and CTO of a small Django development company in Amsterdam. They are deeply involved in the community around Django, a popular Python web framework, being a Django team member and co-organiser of various conferences. Sasha has a particular interest in well-being and ethical issues around communities and development."
   },
   {
     "id": "wojtek",
     "photo": "/assets/speakers/wojtek.jpg",
     "name": "Wojtek Rząsa",
     "company": "",
-    "introduction": "Informatics specialist by passion and by profession. A PhD but primarily an engineer. Interested in distributed systems and software development. With special passion for programming and for Ruby. Works at Rzeszow University of Technology (Rzeszow, Poland), among the others teaches Ruby and Ruby on Rails. Involved in Rzeszow Ruby User Group (http://rrug.pl). More on linkedin: https://www.linkedin.com/in/wrzasa/",
-    "talk_title": "Predicting Performance Changes of Distributed Applications"
+    "introduction": "Informatics specialist by passion and by profession. A PhD but primarily an engineer. Interested in distributed systems and software development. With special passion for programming and for Ruby. Works at Rzeszow University of Technology (Rzeszow, Poland), among the others teaches Ruby and Ruby on Rails. Involved in Rzeszow Ruby User Group (http://rrug.pl). More on linkedin: https://www.linkedin.com/in/wrzasa/"
   }
 ]
