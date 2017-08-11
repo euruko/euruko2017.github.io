@@ -1,7 +1,31 @@
+.schedule-day {
+  margin-bottom: 30px;
+}
+
+.schedule-date {
+  margin-bottom: 20px;
+  color: $font-color;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.8;
+}
+
 .section-schedule {
   background: #ffffff;
 }
 
-.schedule-talk {
+.schedule-time {
+  width: 25%;
+
+  @media(max-width: 860px) {
+    white-space: nowrap;
+    padding-left: 10px !important;
+    text-align: center !important;
+  }
+}
+
+.schedule-title {
+  width: 75%;
   text-align: left;
 }

@@ -1,0 +1,124 @@
+[
+  {
+    "date": "9/29",
+    "day": "Friday",
+    "events": [
+      {
+        "time": "8:30 - 10:00",
+        "title": "Registration, Morning Coffee"
+      },
+      {
+        "time": "9:50 - 10:00",
+        "title": "Introduction"
+      },
+      {
+        "time": "10:00 - 10:40",
+        "title": "Keynote",
+        "speaker_id": "matz"
+      },
+      {
+        "time": "10:50 - 11:35",
+        "title": "Helping communities & products thrive by fostering empathy",
+        "speaker_id": "sasha"
+      },
+      {
+        "time": "11:45 - 12:25",
+        "title": "Data-driven production apps",
+        "speaker_id": "sai"
+      },
+      {
+        "time": "12:25 - 14:00",
+        "title": "Lunch"
+      },
+      {
+        "time": "14:00 - 14:40",
+        "title": "Case Study: The Real Black Friday aka How To Scale an Unscalable Service",
+        "speaker_id": "judit"
+      },
+      {
+        "time": "14:50 - 15:30",
+        "title": "Introducing Tensorflow Ruby API",
+        "speaker_id": "arafat"
+      },
+      {
+        "time": "15:40 - 16:20",
+        "title": "Distributed Systems: Your Only Guarantee Is Inconsistency",
+        "speaker_id": "anthony"
+      },
+      {
+        "time": "16:20 - 16:50",
+        "title": "Coffee Break"
+      },
+      {
+        "time": "16:50 - 17:30",
+        "title": "Things I Learned the Hard Way Building a Search Engine",
+        "speaker_id": "katarzyna"
+      },
+      {
+        "time": "17:40 - 18:20",
+        "title": "Lightning Talks"
+      }
+    ]
+  },
+  {
+    "date": "9/30",
+    "day": "Saturday",
+    "events": [
+      {
+        "time": "9:00 - 10:00",
+        "title": "Morning Coffee"
+      },
+      {
+        "time": "10:00 - 11:10",
+        "title": "Keynote",
+        "speaker_id": "headius"
+      },
+      {
+        "time": "11:20 - 12:00",
+        "title": "How to Make It As A Junior Dev and Stay Sane",
+        "speaker_id": "katelyn"
+      },
+      {
+        "time": "12:10 - 12:50",
+        "title": "Issues with asynchronous interaction",
+        "speaker_id": "anna"
+      },
+      {
+        "time": "12:50 - 14:00",
+        "title": "Lunch"
+      },
+      {
+        "time": "14:00 - 14:40",
+        "title": "The overnight failure",
+        "speaker_id": "sebastian"
+      },
+      {
+        "time": "14:50 - 15:30",
+        "title": "Rescuing legacy codebases with GraphQL and Rails",
+        "speaker_id": "netto"
+      },
+      {
+        "time": "15:40 - 16:20",
+        "title": "Predicting Performance Changes of Distributed Applications",
+        "speaker_id": "wojtek"
+      },
+      {
+        "time": "16:20 - 16:50",
+        "title": "Coffee Break"
+      },
+      {
+        "time": "16:50 - 17:20",
+        "title": "Lightning Talks"
+      },
+      {
+        "time": "17:30 - 18:10",
+        "title": "Ruby 4.0: To Infinity and Beyond",
+        "speaker_id": "bozhidar"
+      },
+      {
+        "time": "18:10 - 18:30",
+        "title": "Closing Ceremony"
+      }
+    ]
+  }
+]
