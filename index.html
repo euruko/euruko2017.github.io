@@ -17,6 +17,20 @@ order: 1
       <p class="section-home-banner__info__date">
         ON 29TH-30TH OF SEPTEMBER, 2017
       </p>
+      <div class="section-home-banner__info__sold-out-wrapper">
+        <p class="section-home-banner__info__sold-out">
+          SORRY, THE OFFICIAL TICKETS ARE SOLD OUT.
+        </p>
+        <p class="section-home-banner__info__exchange">
+          We recommend you to keep checking
+          <a
+            href="https://www.ticketswap.com/event/euruko-2017/a7e9ed0a-c800-4159-9e4d-89ac03cff909"
+            target="_blank"
+            rel="noopener noreferrer"
+          >ticketswap</a><br>
+          for buying and selling spare tickets.
+        </p>
+      <div>
     </div>
   </div>
 </section>
@@ -107,3 +121,30 @@ order: 1
     </div>
   </div>
 </section>
+
+<script>
+
+  (function(){
+
+    if ( window.location.hash ) {
+      var soldOutWrapper = document.querySelector( ".section-home-banner__info__sold-out-wrapper" );
+
+      if ( soldOutWrapper ) {
+        soldOutWrapper.className += " section-home-banner__info__sold-out-wrapper--highlighted";
+      }
+    }
+
+    document.addEventListener( "click", function ( e ) {
+      if ( e.target.classList.contains("highlight-sold-out") ) {
+        var soldOutWrapper = document.querySelector( ".section-home-banner__info__sold-out-wrapper" );
+
+        soldOutWrapper.classList.remove("section-home-banner__info__sold-out-wrapper--highlighted");
+        setTimeout( function() {
+          soldOutWrapper.classList.add("section-home-banner__info__sold-out-wrapper--highlighted");
+        }, 50);
+      }
+    });
+
+  })();
+
+</script>

@@ -48,11 +48,50 @@
   height: 1px;
   width: 50px;
   background: $font-color;
-  margin: 10px 0 8px;
+  margin: 5px 0 5px;
 }
 
 .section-home-banner__info__date {
+  margin-top: 0vh !important;
   font-style: italic;
+}
+
+.section-home-banner__info__sold-out {
+  margin-top: 5vh !important;
+  color: red;
+}
+
+.section-home-banner__info__sold-out-wrapper {
+  &--highlighted {
+    position: relative;
+
+    &:before {
+      pointer-events: none;
+      position: absolute;
+      top: -20px;
+      left: 0px;
+      right: 0px;
+      bottom: -20px;
+      content: " ";
+      animation: sold-out-highlight-animation 2s;
+    }
+  }
+}
+
+@keyframes sold-out-highlight-animation {
+  0% {
+    background-color: transparentize( #e8554e, 0.8 );
+    filter: blur(5px);
+  }
+
+  100% {
+    background-color: transparent;
+    filter: blur(20px);
+  }
+}
+
+.section-home-banner__info__exchange {
+  margin-top: 1.5vh !important;
 }
 
 @media(max-width: 860px) {
