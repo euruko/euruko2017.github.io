@@ -142,6 +142,13 @@ order: 1
         setTimeout( function() {
           soldOutWrapper.classList.add("section-home-banner__info__sold-out-wrapper--highlighted");
         }, 50);
+
+        var navToggle = document.querySelector( "#nav__toggle" );
+
+        if ( navToggle && navToggle.checked ) {
+          navToggle.checked = false;
+          window.scroll(0, soldOutWrapper.getClientRects()[0].top - 50);
+        }
       }
     });
 
