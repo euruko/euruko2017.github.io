@@ -79,8 +79,11 @@
     }
   }
 
+  &__embedded-image {
+    width: 100% !important;
+  }
+
   p code {
-    // border: 1px solid $primary-color;
     border-radius: 3px;
     font-size: 12px;
     padding: 3px;
@@ -90,7 +93,6 @@
   pre {
     margin-top: 2vh;
     padding: 10px;
-    // border: 1px solid $primary-color;
     font-size: 12px;
     background-color: rgba(0,0,0,0.04);
     overflow-y: auto;

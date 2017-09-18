@@ -37,6 +37,10 @@
   background-size: cover;
 }
 
+.blog-post__embedded-image {
+  clear: left;
+}
+
 .blog-post__content {
   flex: 1;
   padding: 40px;
