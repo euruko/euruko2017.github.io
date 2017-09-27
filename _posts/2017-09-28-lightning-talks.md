@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lightning talks"
-date:   2017-09-27 09:00:00
+date:   2017-09-28 09:00:00
 author: "Guilherme Pasqualino"
 image:  "/assets/lightning-talks.jpg"
 excerpt: "Do you have an interesting idea or a funny anecdote and you want to join our speakers on the stage? Then send us your lightning talk proposal."
