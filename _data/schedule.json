@@ -66,7 +66,7 @@
   },
   {
     "date": "9/30",
-    "day": "Saturday",
+    "day": "Saturday (UPDATED)",
     "events": [
       {
         "time": "9:30 - 10:30",
@@ -78,17 +78,17 @@
         "speaker_id": "headius"
       },
       {
-        "time": "11:20 - 12:00",
+        "time": "11:10 - 11:40",
         "title": "How to Make It As A Junior Dev and Stay Sane",
         "speaker_id": "katelyn"
       },
       {
-        "time": "12:10 - 12:50",
+        "time": "11:55 - 12:35",
         "title": "Issues with asynchronous interaction",
         "speaker_id": "anna"
       },
       {
-        "time": "12:50 - 14:00",
+        "time": "12:35 - 14:00",
         "title": "Lunch"
       },
       {
@@ -100,6 +100,10 @@
         "time": "14:50 - 15:30",
         "title": "Rescuing legacy codebases with GraphQL and Rails",
         "speaker_id": "netto"
+      },
+      {
+        "time": "15:30 - 15:40",
+        "title": "Take EuRuKo Home pitches"
       },
       {
         "time": "15:40 - 16:20",
