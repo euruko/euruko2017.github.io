@@ -23,6 +23,9 @@ order: 6
               <td class="schedule-title">
                 <div>
                   {{ event.title }}
+                  {% if event.slides %}
+                    [ <a href="{{ event.slides }}">slides</a> ]
+                  {% endif %}
                 </div>
                 {% if event.speaker_id %}
                   <div>
