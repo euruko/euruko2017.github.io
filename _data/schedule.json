@@ -34,17 +34,20 @@
       {
         "time": "14:00 - 14:40",
         "title": "Case Study: The Real Black Friday aka How To Scale an Unscalable Service",
-        "speaker_id": "judit"
+        "speaker_id": "judit",
+        "slides": "/downloads/slides/the_real_black_friday.pdf"
       },
       {
         "time": "14:50 - 15:30",
         "title": "Introducing Tensorflow Ruby API",
-        "speaker_id": "arafat"
+        "speaker_id": "arafat",
+        "slides": "https://docs.google.com/presentation/d/1FSfVfwFrWQ5AXgedVoqk_-50vT5q2vyQD0uA3_CewTU/edit?usp=sharing"
       },
       {
         "time": "15:40 - 16:20",
         "title": "Distributed Systems: Your Only Guarantee Is Inconsistency",
-        "speaker_id": "anthony"
+        "speaker_id": "anthony",
+        "slides": "https://speakerdeck.com/azach/distributed-systems-your-only-guarantee-is-inconsistency"
       },
       {
         "time": "16:20 - 16:50",
@@ -81,12 +84,14 @@
       {
         "time": "11:10 - 11:40",
         "title": "How to Make It As A Junior Dev and Stay Sane",
-        "speaker_id": "katelyn"
+        "speaker_id": "katelyn",
+        "slides": "https://www.slideshare.net/KatelynKatieHertel/how-to-make-it-as-a-junior-dev/1"
       },
       {
         "time": "11:55 - 12:35",
         "title": "Issues with asynchronous interaction",
-        "speaker_id": "anna"
+        "speaker_id": "anna",
+        "slides": "https://speakerdeck.com/gaar4ica/issues-with-asynchronous-interaction"
       },
       {
         "time": "12:35 - 14:00",
@@ -95,7 +100,8 @@
       {
         "time": "14:00 - 14:40",
         "title": "The overnight failure",
-        "speaker_id": "sebastian"
+        "speaker_id": "sebastian",
+        "slides": "https://speakerdeck.com/sebasoga/the-overnight-failure-2"
       },
       {
         "time": "14:50 - 15:30",
