@@ -19,7 +19,8 @@
       {
         "time": "10:50 - 11:35",
         "title": "Helping communities & products thrive by fostering empathy",
-        "speaker_id": "sasha"
+        "speaker_id": "sasha",
+        "slides": "https://github.com/mxsasha/empathy-talk/blob/e181c1a273a22f01d9ff54cb278496d285ebfffd/deckset.pdf"
       },
       {
         "time": "11:45 - 12:25",
