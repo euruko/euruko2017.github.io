@@ -57,7 +57,8 @@
       {
         "time": "16:50 - 17:30",
         "title": "Things I Learned the Hard Way Building a Search Engine",
-        "speaker_id": "katarzyna"
+        "speaker_id": "katarzyna",
+        "slides": "/downloads/slides/search_engine.pdf"
       },
       {
         "time": "17:40 - 18:20",
